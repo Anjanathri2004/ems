@@ -10,8 +10,6 @@ pool:
   name: 'Anjana'
   demands:
     - maven
-    - Agent.Version -gtVersion 4.252.0
-
 
 steps:
 - task: Maven@4
